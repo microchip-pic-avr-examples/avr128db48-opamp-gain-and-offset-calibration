@@ -1,41 +1,37 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Update the title for avr128db48-opamp-gain-and-offset-calibration here
+# AVR128DB48 Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (OPAMP) peripheral. The OPAMP peripheral can be configured as a PGA, in this example the internal DAC and ADC are used to calibrate gain and offset for the PGA. For more information on the calibration procedure, see the application note.   
 
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+* ANxxxx - Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral
+* [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
-
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
-
+### Studio
+* [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
+* Atmel Studio AVR-Dx_DFP version 1.2.49 or later
+### MPLAB® X
+* [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
+* [MPLAB® XC8 Compiler](https://www.microchip.com/mplab/compilers) v2.20 or later
+* MPLABX AVR-Dx_DFP version 1.3.60 or later
+  
 ## Hardware Used
 
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Setup
 
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+* No external hardware setup needed
 
 ## Operation
+* Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
+* Download the zip file or clone the example to get the source code
+* Open the .atsln file with Atmel Studio
+* Press *Start Without Debugging* (CTRL+ALT+F5) to run the application
 
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+## Conclusion
+After going through this example you should be able to calibrate the gain and offset of the OPAMP configured as a PGA.
