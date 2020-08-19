@@ -13,11 +13,11 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 ## Software Used
 ### Studio
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.2.49 or later
+* Atmel Studio AVR-Dx_DFP version 1.3.67 or later
 ### MPLAB® X
 * [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
 * [MPLAB® XC8 Compiler](https://www.microchip.com/mplab/compilers) v2.20 or later
-* MPLABX AVR-Dx_DFP version 1.3.60 or later
+* MPLABX AVR-Dx_DFP version 1.4.75 or later
   
 ## Hardware Used
 
