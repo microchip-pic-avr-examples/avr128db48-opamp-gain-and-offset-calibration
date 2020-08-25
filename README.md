@@ -3,12 +3,13 @@
 
 # AVR128DB48 Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral
 
-A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (OPAMP) peripheral. The OPAMP peripheral can be configured as a PGA, in this example the internal DAC and ADC are used to calibrate gain and offset for the PGA. For more information on the calibration procedure, see the application note.   
+A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (OPAMP) peripheral. The OPAMP peripheral can be configured as a PGA, in this example the internal DAC and ADC are used to calibrate gain and offset for the PGA. For more information on the calibration procedure, see the [application note](https://microchip.com/DS00003633).   
 
 ## Related Documentation
 
-* ANxxxx - Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral
-* [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* [AN3633 - Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral](https://microchip.com/DS00003633)
+* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
@@ -17,7 +18,7 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 
 ## Hardware Used
 
-* [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
 
 ## Setup
 
